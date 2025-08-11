@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <meta
         name="viewport"
         content="width=device-width, initial-scale=1.0"
@@ -9,10 +9,26 @@
     {% block stylesheets %}
         {{ encore_entry_link_tags('app') }}
     {% endblock %}
+    {% block scripts %}
+        {{ encore_entry_script_tags('app') }}
+    {% endblock scripts %}
+
 </head>
 <body>
 <h1 class="text-3xl font-bold underline">
     Hello world!
 </h1>
+
+
+<button
+    type="button"
+    data-ripple-light="true"
+    class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50
+    disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white
+     shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85]
+     focus:shadow-none active:opacity-[0.85] active:shadow-none"
+>
+    Button
+</button>
 </body>
 </html>
