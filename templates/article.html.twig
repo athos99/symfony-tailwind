@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    />
+    {% block stylesheets %}
+        {{ encore_entry_link_tags('app') }}
+    {% endblock %}
+    {% block scripts %}
+        {{ encore_entry_script_tags('app') }}
+    {% endblock scripts %}
+
+</head>
+<body>
+
+<h1>Article Homepage</h1>   
+<p>{{ ipsum.getParagraphs(3) }}</p>
+
+</body>
+</html>
