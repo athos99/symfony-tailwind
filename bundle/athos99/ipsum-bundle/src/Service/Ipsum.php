@@ -1,6 +1,6 @@
 <?php
 
-namespace Athos99\Ipsum\Service;
+namespace Athos99\IpsumBundle\Service;
 
 class Ipsum
 {

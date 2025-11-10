@@ -58,7 +58,8 @@
     "autoload": {
         "psr-4": {
             "App\\": "src/",
-            "Athos99\\Ipsum\\": "bundle/athos99/ipsum-bundle/src/"
+            "Athos99\\IpsumBundle\\": "bundle/athos99/ipsum-bundle/src/",
+            "Athos99\\TestBundle\\": "bundle/athos99/test-bundle/src/"
         }
     },
     "autoload-dev": {

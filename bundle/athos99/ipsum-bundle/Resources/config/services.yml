@@ -1,7 +1,0 @@
-services:
-  Ipsum:
-    class: Athos99\Ipsum\Service\Ipsum
-    arguments:
-      $unicornsAreReal: true
-      $minSunshine: 3
-  
