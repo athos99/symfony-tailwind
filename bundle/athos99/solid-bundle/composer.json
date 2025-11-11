@@ -1,0 +1,19 @@
+{
+    "name": "athos99/solid-bundle",
+    "description": "SOLID coding helpers",
+    "type": "symfony-bundle",
+    "require": {
+        "symfony/framework-bundle": "^7.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Athos99\\SolidBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "athos99"
+        }
+    ]
+}
