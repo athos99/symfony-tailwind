@@ -6,7 +6,7 @@ class Test
 {
 
 
-    public function __construct(private bool $param1 = true, private int $param2 = 3)
+    public function __construct(private string $param1 = 'def1', private string $param2 = 'def2')
     {
     }
 

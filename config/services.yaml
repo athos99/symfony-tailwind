@@ -21,4 +21,4 @@ services:
 
 imports:
     - { resource: "@IpsumBundle/Resources/config/services.php" }
-    - { resource: "@TestBundle/Resources/config/services.php" }
+#    - { resource: "@TestBundle/Resources/config/services.php" }
