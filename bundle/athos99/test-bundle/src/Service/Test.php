@@ -18,6 +18,6 @@ class Test
      */
     public function test(): string
     {
-        return "test budle service";
+        return "test bundle service";
     }
 }
