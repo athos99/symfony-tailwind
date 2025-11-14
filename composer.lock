@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b433f448367f626acd321a66e5601d8",
+    "content-hash": "09f9ec3b415792d404769c8822232989",
     "packages": [
         {
             "name": "athos99/base-demo-bundle",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/athos99/base-demo-bundle.git",
-                "reference": "8fe7b8290bedaac1d6780ec321ac9487f3251461"
+                "reference": "9978fc3ca7c3def5d41b228b6a8c306d42f80a67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/athos99/base-demo-bundle/zipball/8fe7b8290bedaac1d6780ec321ac9487f3251461",
-                "reference": "8fe7b8290bedaac1d6780ec321ac9487f3251461",
+                "url": "https://api.github.com/repos/athos99/base-demo-bundle/zipball/9978fc3ca7c3def5d41b228b6a8c306d42f80a67",
+                "reference": "9978fc3ca7c3def5d41b228b6a8c306d42f80a67",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
                 "source": "https://github.com/athos99/base-demo-bundle/tree/main",
                 "issues": "https://github.com/athos99/base-demo-bundle/issues"
             },
-            "time": "2025-11-14T11:05:08+00:00"
+            "time": "2025-11-14T13:06:17+00:00"
         },
         {
             "name": "doctrine/collections",
