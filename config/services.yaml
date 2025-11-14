@@ -20,5 +20,5 @@ services:
     # please note that last definitions always *replace* previous ones
 
 imports:
-    - { resource: "@IpsumBundle/Resources/config/services.php" }
+#    - { resource: "@IpsumBundle/Resources/config/services.php" }
 #    - { resource: "@TestBundle/Resources/config/services.php" }

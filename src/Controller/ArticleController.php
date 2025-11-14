@@ -2,19 +2,18 @@
 
 namespace App\Controller;
 
-use Athos99\IpsumBundle\Service\Ipsum;
-use Athos99\TestBundle\Service\Test;
+use Athos99\BaseDemoBundle\Service\BaseDemo;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
 class ArticleController extends AbstractController
 {
-    public function __construct( private Ipsum $ipsum, private Test $test) {}
+    public function __construct( private BaseDemo $baseDemo) {}
     #[Route("/article", name: "article")]
     public function homepage()
 
     {
-        return $this->render('article.html.twig',['ipsum'=>$this->ipsum,'test'=>$this->test]);
+        return $this->render('article.html.twig',['baseDemo'=>$this->baseDemo]);
     }
 
 
