@@ -14,5 +14,5 @@ return [
     Symfony\UX\StimulusBundle\StimulusBundle::class => ['all' => true],
     Symfony\UX\Turbo\TurboBundle::class => ['all' => true],
     Symfony\WebpackEncoreBundle\WebpackEncoreBundle::class => ['all' => true],
-    Athos99\BaseDemoBundle\BaseDemoBundle::class => ['all' => true],
+    Athos99\BaseDemoBundle\BaseDemoBundle::class => ['dev' => true],
 ];

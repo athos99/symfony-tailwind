@@ -102,7 +102,7 @@
             "allow-contrib": false,
             "require": "7.3.*",
             "endpoint": [
-                "https://api.github.com/repos/athos99/base-demo-bundle/contents/recipe/index.json",
+                "https://api.github.com/repos/athos99/base-demo-bundle/contents/index.json",
                 "flex://defaults"
             ]
         }

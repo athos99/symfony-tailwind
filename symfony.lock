@@ -1,6 +1,12 @@
 {
     "athos99/base-demo-bundle": {
-        "version": "1.0.0"
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/athos99/base-demo-bundle",
+            "branch": "main",
+            "version": "1.0",
+            "ref": "7406f3bf1312d1a9121a7744dadef636c6c7ff00"
+        }
     },
     "doctrine/deprecations": {
         "version": "1.1",
